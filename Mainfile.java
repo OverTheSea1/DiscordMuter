@@ -30,7 +30,7 @@ import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
-public class JavaBOT extends ListenerAdapter
+public class Mainfile.java extends ListenerAdapter
 {
     /**
      * This is the method where the program starts.
