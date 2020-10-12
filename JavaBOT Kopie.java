@@ -42,7 +42,7 @@ public class JavaBOT extends ListenerAdapter
         // we would use AccountType.CLIENT
         try
         {
-            JDA jda = (JDA) new JDABuilder("NzY1MTk1NDQ1NzAxODM2ODUw.X4RRyg.exU2_7kxOLjr0Ckz0cbpuMHokS4")         // The token of the account that is logging in.
+            JDA jda = (JDA) new JDABuilder("TOKEN")         // The token of the account that is logging in.
                     .addEventListeners(new JavaBOT())  // An instance of a class that will handle events.
                     .setActivity(Activity.playing("AmongUs"))
                     .setStatus(OnlineStatus.ONLINE)
